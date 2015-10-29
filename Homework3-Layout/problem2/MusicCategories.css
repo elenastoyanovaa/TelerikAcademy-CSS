@@ -1,0 +1,114 @@
+﻿/* Reset */
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a,
+abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong,
+sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption,
+tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header,
+hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+    blockquote:before, blockquote:after, q:before, q:after {
+        content: '';
+        content: none;
+    }
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+/*main*/
+body {
+    font-family: Arial,Verdana;
+}
+
+#music {
+    background-color: #EEEEEE;
+    box-sizing: border-box;
+    width: 419px;
+    height:538px;
+    padding-left: 12px;
+    padding-top: 15px;
+    padding-right: 6px;
+    border-radius:5px;
+}
+
+#first, #second, #third {
+    background-color: white;
+    border: 1px solid #AFAFAF;
+    margin-top: 37px;
+    box-sizing: border-box;
+    width: 399px;
+    height: 120px;
+    padding: 16px;
+    font-size: 13px;
+}
+
+img {
+    float: left;
+    margin-right: 16px;
+}
+
+p {
+    line-height: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: #2E2E2E;
+    font-weight: bold;
+}
+
+div#third {
+    height: 129px;
+}
+
+.add {
+    position: relative;
+    left: 5px;
+    top: 18px;
+}
+
+span.add {
+    position: relative;
+    top: 10px;
+    left: 54px;
+    z-index: 1;
+    color: white;
+}
+
+.listen {
+    position: relative;
+    left: 34px;
+    top: 18px;
+}
+
+span.listen {
+    position: relative;
+    z-index: 1;
+    top: 10px;
+    left: 96px;
+    color: white;
+}

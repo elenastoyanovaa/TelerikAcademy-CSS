@@ -1,0 +1,231 @@
+﻿/* Reset */
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a,
+abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong,
+sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption,
+tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header,
+hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+}
+/* HTML5 display-role reset for older browsers */
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+    blockquote:before, blockquote:after, q:before, q:after {
+        content: '';
+        content: none;
+    }
+
+
+/*main*/
+nav {
+    float: left;
+    box-sizing: border-box;
+    margin-left: 3px;
+    margin-top: 14px;
+    width: 138px;
+}
+
+    nav > ul {
+        margin-top: 15px;
+    }
+
+aside {
+    float: left;
+    width: 150px;
+}
+
+#main {
+    box-sizing: border-box;
+    float: left;
+    width: 495px;
+    background-color: white;
+    height: 549px;
+    border: 1px solid black;
+    margin-top: 2px;
+    padding-top: 18px;
+    padding-left: 4px;
+    padding-right: 3px;
+}
+
+img {
+    float: left;
+}
+
+nav > header > h3:before {
+    content: url(img/home.png);
+}
+
+#content {
+    width: 786px;
+    height: 576px;
+    font-size: 12px;
+    margin-top: 3px;
+    margin-left: 1px;
+    border: 1px solid black;
+    background-color: #F1F1F1;
+}
+
+input[type=text] {
+    width: 92px;
+    margin-top: 6px;
+  margin-left: 11px;
+    margin-bottom: 3px;
+
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+span {
+    color: #8B0000;
+    font-weight: bold;
+}
+
+nav h3 {
+    font-weight: bold;
+}
+
+#basic {
+    padding-bottom: 28px;
+}
+
+#advanced {
+    padding-bottom: 24px;
+}
+
+#examples {
+    padding-bottom: 15px;
+}
+
+#references {
+    padding-bottom: 18px;
+}
+
+h1 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+input[type=image] {
+    border: 1px solid black;
+}
+
+header > input {
+    margin-top: 13px;
+}
+
+.next {
+    height: 18px;
+}
+
+h2 ,aside h3{
+    background-color: #808080;
+    color: white;
+    height: 16px;
+    box-sizing: BORDER-BOX;
+    font-size: 14PX;
+    PADDING: 1px;
+    font-weight: bold;
+}
+
+#main header#heading {
+    border-bottom: 2px solid #808080;
+    padding-bottom: 4px;
+}
+
+.first {
+    margin-top: 7px;
+    font-weight: bold;
+    line-height: 13px;
+}
+
+    .first img {
+        margin-top: 4px;
+        padding-right: 17px;
+    }
+
+    .first p {
+        margin-top: 16PX;
+        FONT-SIZE: 13px;
+    }
+
+.second {
+    margin-top: 21px;
+}
+
+    .second p {
+        margin-top: 12px;
+    }
+
+.third {
+    margin-top: 12px;
+}
+
+    .third p {
+        margin-top: 12px;
+    }
+
+.fourth {
+    margin-top: 12px;
+}
+
+    .fourth p {
+        margin-top: 12px;
+    }
+
+a {
+    color: #8B0000;
+}
+
+p.second p.third p.fourth {
+    margin: 5px;
+}
+
+.navigation {
+    border-bottom: 2px solid #808080;
+    border-top: 2px solid #808080;
+    margin-top: 10px;
+    padding-top: 7px;
+    padding-bottom: 5px;
+}
+aside {
+    text-align:center;
+    font-size:14px;
+}
+td {
+    border:1px solid #808080;
+    background-color:white;
+    padding-bottom:5px;
+}
+#bluebutton {
+      margin-top: 3px;
+  height: 29px;
+  width: 99px;
+  color: #3DCCFD;
+  background-color: #CAEBFC;
+  border: 1px solid #3E81B2;
+}
+.cells {
+    padding-top:2px;
+}

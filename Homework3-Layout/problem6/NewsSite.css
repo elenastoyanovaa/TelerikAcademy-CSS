@@ -1,0 +1,151 @@
+﻿/* Reset */
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a,
+abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong,
+sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption,
+tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header,
+hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+}
+/* HTML5 display-role reset for older browsers */
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+    blockquote:before, blockquote:after, q:before, q:after {
+        content: '';
+        content: none;
+    }
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+/*main*/
+#content {
+    box-sizing: border-box;
+    background-color: #1E3741;
+    width: 611px;
+    height: 325px;
+    border-radius: 6px;
+    margin: 1px;
+    padding-right: 35px;
+    font-family: arial;
+    font-size: 12.25px;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+nav > ul li {
+    display: inline-block;
+    box-sizing: border-box;
+    height: 29px;
+    background-color: #4B5F67;
+    padding-top: 8px;
+}
+
+    nav > ul li a {
+        vertical-align: baseline;
+    }
+
+#nocolor {
+    background-color: #1E3741;
+    width: 64px;
+}
+
+#sport {
+    width: 59px;
+    padding-left: 12px;
+}
+
+#emision {
+    width: 61px;
+    padding-left: 12px;
+}
+
+#interesting {
+    width: 84px;
+    padding-left: 12px;
+}
+
+#report {
+    width: 110px;
+    padding-left: 12px;
+}
+
+#morning {
+    width: 88px;
+    padding-left: 12px;
+}
+
+a {
+    color: #8EA4B3;
+}
+
+img {
+    float: right;
+    margin-top: 14px;
+}
+
+div > ul li {
+    border-bottom: 1px solid #8EA4B3;
+    padding-right: 29px;
+    padding-left: 7px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+    div > ul li:last-child {
+        border: none;
+    }
+
+#news {
+    margin-top: 14px;
+    display: block;
+    width: 235px;
+}
+
+nav {
+    padding-top: 9px;
+    padding-left: 9px;
+}
+
+a {
+    text-decoration: none;
+}
+
+#white {
+    color: white;
+}
+
+h3 {
+    background-color: #00968C;
+    padding-left: 9px;
+    color: white;
+    font-weight: bold;
+    height: 24px;
+    padding-top: 10px;
+}
+
+div > ul {
+    line-height: 15px;
+}

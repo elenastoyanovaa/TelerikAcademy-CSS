@@ -1,0 +1,21 @@
+﻿ul {
+    list-style-type: none;
+}
+
+    ul ul {
+        display: none;
+    }
+
+    ul li:hover ul {
+        display: block;
+        color: #ccc;
+    }
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+    a:hover {
+        text-decoration: underline;
+    }

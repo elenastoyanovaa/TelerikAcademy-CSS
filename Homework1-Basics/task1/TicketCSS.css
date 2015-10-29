@@ -1,0 +1,58 @@
+﻿body {
+    padding: 0px;
+    margin: 0px;
+}
+
+table {
+    background-color: #595959;
+    font-family: arial;
+    color: #BBBBBB;
+    height: 205px;
+    width: 305px;
+    font-weight: normal;
+    border-collapse: collapse;
+}
+
+th {
+    text-align: left;
+    padding-top: 9px;
+    font-weight: normal;
+    padding-left: 3px;
+    padding-bottom: 9px;
+    letter-spacing: -0.1px;
+}
+
+.firstcol {
+    font-style: italic;
+    color: white;
+    padding-left: 3px;
+    width: 98px;
+}
+
+td {
+    font-size: 10.5px;
+    padding: 0px;
+}
+
+#red {
+    color: red;
+}
+
+#name:before {
+    content: url(img/dot.png);
+    display: inline-block;
+    position: relative;
+}
+
+.yellow {
+    color: #fff9b5;
+}
+
+#orange {
+    color: #dd6d23;
+    font-weight: bold;
+}
+
+#redrow {
+    vertical-align: top;
+}

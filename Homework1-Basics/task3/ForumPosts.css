@@ -1,0 +1,46 @@
+﻿body {
+    background-color: #a9a9a9;
+    font-size: 20px;
+}
+
+    li, body > header > h1, body > footer {
+        text-align: center;
+    }
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+header, li {
+    color: white;
+}
+
+body > header > h1 {
+    font-size: 50px;
+}
+
+article h1 {
+    font-size: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+footer > p {
+    font-size: 15px;
+}
+
+nav > ul > li:last-child {
+    text-decoration: underline;
+}
+
+.current {
+    background-color: #D3D3D3;
+}
